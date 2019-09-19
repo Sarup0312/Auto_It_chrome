@@ -17,7 +17,7 @@ public class ChromeDemo1 {
 	    
 	    driver.findElement(By.xpath("//input[@type='file']")).click();
 	    
-	    Thread.sleep(5000);
+	    Thread.sleep(4000);
 	    Runtime.getRuntime().exec("E:\\selnium\\uploadfile_chrome.exe");
 	}
 
